@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "fullName": "Bill Corey",
+    "login": "billy",
+    "password": "1111",
+    "imageUrl": "/public/job/jobDispatcher.svg",
+    "job": "Dispatcher",
+    "type": "Dispatcher"
+  },
+  {
+    "id": 2,
+    "fullName": "Andy Merl",
+    "login": "andyy",
+    "password": "2222",
+    "imageUrl": "/public/job/jobTech.svg",
+    "job": "Tech",
+    "type": "Main Tech"
+  },
+  {
+    "id": 3,
+    "fullName": "Zipper Laddo",
+    "login": "zippy",
+    "password": "3333",
+    "imageUrl": "/public/job/jobTech.svg",
+    "job": "Tech",
+    "type": "Main Tech"
+  },
+  {
+    "id": 4,
+    "fullName": "Max Bentley",
+    "login": "maxxy",
+    "password": "4444",
+    "imageUrl": "/public/job/jobDispatcher.svg",
+    "job": "Dispatcher",
+    "type": "Dispatcher"
+  },
+  {
+    "id": 5,
+    "fullName": "Jason Reff",
+    "login": "reffy",
+    "password": "5555",
+    "imageUrl": "/public/job/jobTech.svg",
+    "job": "Tech",
+    "type": "Main Tech"
+  }
+]

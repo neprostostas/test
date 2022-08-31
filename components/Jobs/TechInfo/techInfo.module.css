@@ -1,0 +1,142 @@
+.techInfo {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 13px 20px 20px 20px;
+    min-width: 400px;
+    
+}
+
+.topPanel {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.userName {
+    display: grid;
+    align-items: center;
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #112149;  
+}
+
+.trashButton {
+    height: 40px;
+    width: 40px;
+    border: unset;
+    background-color: #FDF2F2;
+    border-radius: 5px;
+}
+
+.hrLine {
+    background: rgba(0, 0, 0, 0.1);
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+}
+
+.typeText {
+    margin: 16.5px 0 8.5px 0;
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #112149;
+}
+
+.type {
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #355094;
+
+    border-radius: 5px;
+    background-color:#3D57981F;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.type > div {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.type > div:last-child {
+    border-right: unset;
+}
+
+.inputWrapper {
+    margin: 17.5px 15px 46px 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    height: 40px;
+}
+
+.inputWrapper > label {
+    display: grid;
+    gap: 9.5px;
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #112149;
+}
+
+.inputWrapper > label > input {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+}
+
+.bottomSection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+    column-gap: 16px;
+}
+
+.saveButton {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color:#3D57981F;
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #355094;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 168px;
+}
+
+.saveButton:hover {
+    color: #FFFFFF;
+    background: #355094;
+}
+
+.filterButton {
+    height: 40px;
+    width: 40px;
+    border: unset;
+    border-radius: 5px;
+}
+
+
+.hrLineV {
+    height: 20px;
+    border-top: unset;
+    border-bottom: unset;
+    border-left: unset;
+}
